@@ -1,0 +1,7 @@
+#dbcontext shawntemp
+#blockmode
+.ingest inline into table MyLogs <|
+One, 2011-01-01T12:12:12.111Z, 1, 1, "my message", 1
+two, 2011-01-01T12:12:12.111Z, 1, 1, "my message", 1
+three, 2011-01-01T12:12:12.111Z, 1, 1, "my message", 1
+four, 2011-01-01T12:12:12.111Z, 1, 1, "my message", 1

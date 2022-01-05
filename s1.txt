@@ -1,0 +1,3 @@
+#dbcontext shawntemp
+.create table MyLogs ( Level:string, Timestamp:datetime, UserId:string, TraceId:string, Message:string, ProcessId:int32 )
+.create table Purchases ( Item:string, Quantity:int32 )
