@@ -29,6 +29,10 @@ test-kqlt.sh or gradle/junit/Kotlin task?
 
 ## Setup
 
+```
+az kusto database create --cluster-name "mystuff" --database-name "shawntemp" --read-write-database location="eastus" soft-delete-period="P1D" --resource-group my-e2
+```
+
 ### get the cli
 ```
 mkdir -p tools/kusto
